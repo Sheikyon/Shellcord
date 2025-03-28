@@ -25,8 +25,8 @@ def send_discord_message(webhook_url, message, username="Shellcord", avatar_url=
         print(f"{Fore.RED}Failed to send message. Status code: {response.status_code}, Response: {response.text}{Style.RESET_ALL}")
 
 def main():
-    WEBHOOK_URL = "https://discord.com/api/webhooks/1354210816345247985/jXgLRvZ0zgNvQQffhOv7RztByOTu-6DgPByuqvJv65-vvd4Gc0GXtC6IlCP0OVTnOaUk"
-    AVATAR_URL = "https://i.imgur.com/shell_icon.png"  # Optional
+    WEBHOOK_URL = ""
+    AVATAR_URL = "https://i.imgur.com/shell_icon.png" 
     
     # Colored welcome message
     print(f"{Fore.CYAN}Shellcord: Enter messages below. Type 'exit' to quit.{Style.RESET_ALL}")
